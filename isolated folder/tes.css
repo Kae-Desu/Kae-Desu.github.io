@@ -1,0 +1,35 @@
+body {
+    background-color: #333232;
+}
+
+#container {
+    background-color: #0e2431;
+    border: 5px solid #f5e4c3;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(192, 191, 191);
+}
+
+#quotestyle {
+    margin-top:16px;
+    margin-bottom:16px;
+    padding:0.01em 16px;
+    font-size:18px!important;
+    color:#000!important;
+    background-color:#f1f1f1!important;
+    border-left:6px solid #ccc!important;
+}
+
+#output {
+    font-size:24px!important;
+    font-family:serif;
+}
