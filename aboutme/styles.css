@@ -1,0 +1,9 @@
+body {
+    background-color: #80f0ff;
+}
+
+.images img {
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+}
