@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.contact-card-row {
+    margin: 0 -5px;
+}
+
+.contact-card-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-card-column img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.contact-card-column {
+    float: left;
+    width: 33%;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-card-column {
+        display: block;
+        width: 100%;
+    }
+}
+
+p {
+    font-size: large;
+}
